@@ -19,7 +19,7 @@ describe Solver do
     end
 
     it 'raises an ArgumentError if the parameter is negative' do
-      expect { solver.factorial(-5) }.to raise_error(ArgumentError, "Number must be non-negative")
+      expect { solver.factorial(-5) }.to raise_error(ArgumentError, 'Number must be non-negative')
     end
 
     it 'returns the factorial of the parameter' do
